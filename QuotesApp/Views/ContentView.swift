@@ -18,6 +18,7 @@ struct ContentView: View {
                             Text(quote.author)
                         }
                         .foregroundColor(.white)
+                        .padding()
                     }
                 }
             }.navigationTitle("Quotes")
