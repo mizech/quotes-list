@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  QuotesApp
-//
-//  Created by Michael Zech on 16.06.22.
-//
-
 import SwiftUI
 
 struct ContentView: View {
