@@ -12,7 +12,7 @@ struct ContentView: View {
                             .resizable()
                             .aspectRatio(contentMode: .fit)
                             .cornerRadius(5)
-                        VStack {
+                        VStack(alignment: .leading, spacing: 20) {
                             Text(quote.sentence)
                                 .font(.largeTitle)
                             Text(quote.author)
