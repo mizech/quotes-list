@@ -1,6 +1,6 @@
 # Quotes List
 
-SwiftUI Lists, Navigation and JSON-parsing
+Working with SwiftUI Lists, Navigation and JSON-parsing
 
 <div style="text-align: center">
   <img src="./images/img1.png" alt="screenshot 1" width="300" />&nbsp;&nbsp;&nbsp;&nbsp;
