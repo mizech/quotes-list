@@ -1,0 +1,32 @@
+[
+{
+    "sentence": "Most of the good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program.",
+    "author": "Linus Torvalds",
+    "description": "Linus Benedict Torvalds born 28 December 1969 is a Finnish-American software engineer who is the creator and, historically, the main developer of the Linux kernel, used by Linux distributions and other operating systems such as Android. He also created the distributed version control system Git and the scuba dive logging and planning software Subsurface.",
+    "image": "calm"
+ },
+ {
+    "sentence": "Humans are allergic to change. They love to say, ‘We’ve always done it this way.’ I try to fight that. That’s why I have a clock on my wall that runs counterclockwise.",
+    "author": "Grace Hopper",
+    "description": "Grace Brewster Murray Hopper. One of the first programmers of the Harvard Mark I computer, she was a pioneer of computer programming who invented one of the first linkers. Hopper was the first to devise the theory of machine-independent programming languages, and the FLOW-MATIC programming language she created using this theory was later extended to create COBOL, an early high-level programming language still in use today.",
+    "image": "focus"
+ },
+ {
+    "sentence": "Most of the good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program.",
+    "author": "Linus Torvalds",
+    "description": "Linus Benedict Torvalds born 28 December 1969 is a Finnish-American software engineer who is the creator and, historically, the main developer of the Linux kernel, used by Linux distributions and other operating systems such as Android. He also created the distributed version control system Git and the scuba dive logging and planning software Subsurface.",
+    "image": "ambition"
+ },
+ {
+    "sentence": "Most of the good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program.",
+    "author": "Linus Torvalds",
+    "description": "Linus Benedict Torvalds born 28 December 1969 is a Finnish-American software engineer who is the creator and, historically, the main developer of the Linux kernel, used by Linux distributions and other operating systems such as Android. He also created the distributed version control system Git and the scuba dive logging and planning software Subsurface.",
+    "image": "reflect"
+ },
+ {
+    "sentence": "Most of the good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program.",
+    "author": "Linus Torvalds",
+    "description": "Linus Benedict Torvalds born 28 December 1969 is a Finnish-American software engineer who is the creator and, historically, the main developer of the Linux kernel, used by Linux distributions and other operating systems such as Android. He also created the distributed version control system Git and the scuba dive logging and planning software Subsurface.",
+    "image": "reflect2"
+ }
+]

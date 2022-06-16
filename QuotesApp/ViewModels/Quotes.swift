@@ -4,8 +4,29 @@ class Quotes: ObservableObject {
     @Published var entities = [Quote]()
     
     init() {
-        entities.append(Quote(id: UUID(), sentence: "Quote 1", author: "Author 1", description: "Description 1", image: "calm"))
-        entities.append(Quote(id: UUID(), sentence: "Quote 2", author: "Author 2", description: "Description 2", image: "focus"))
-        entities.append(Quote(id: UUID(), sentence: "Quote 3", author: "Author 3", description: "Description 3", image: "reflect"))
+        let path = Bundle.main.url(forResource: "collection", withExtension: "json")
+        
+        if let path = path {
+            do {
+                let data = try Data(contentsOf: path)
+                let decoder = JSONDecoder()
+                
+                do {
+                    let json = try decoder.decode([Quote].self, from: data)
+                    for obj in json {
+                        entities.append(
+                            Quote(id: UUID(),
+                                  sentence: obj.sentence,
+                                  author: obj.author,
+                                  description: obj.description,
+                                  image: obj.image))
+                    }
+                } catch {
+                    print(error)
+                }
+            } catch {
+                print(error)
+            }
+        }
     }
 }

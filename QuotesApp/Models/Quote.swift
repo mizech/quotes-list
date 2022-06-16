@@ -1,6 +1,6 @@
 import Foundation
 
-struct Quote: Identifiable {
+struct Quote: Identifiable, Decodable {
     var id: UUID?
     var sentence: String
     var author: String

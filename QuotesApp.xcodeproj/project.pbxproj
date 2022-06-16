@@ -14,6 +14,7 @@
 		4C6AA90D285B0E0E006957AF /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6AA90C285B0E0E006957AF /* Quote.swift */; };
 		4C6AA90F285B0E7C006957AF /* Quotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6AA90E285B0E7C006957AF /* Quotes.swift */; };
 		4C6AA911285B1E87006957AF /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6AA910285B1E87006957AF /* DetailsView.swift */; };
+		4C6AA915285B2061006957AF /* collection.json in Resources */ = {isa = PBXBuildFile; fileRef = 4C6AA914285B2061006957AF /* collection.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		4C6AA90C285B0E0E006957AF /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
 		4C6AA90E285B0E7C006957AF /* Quotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quotes.swift; sourceTree = "<group>"; };
 		4C6AA910285B1E87006957AF /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		4C6AA914285B2061006957AF /* collection.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = collection.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 		4C6AA8FA285B0B69006957AF /* QuotesApp */ = {
 			isa = PBXGroup;
 			children = (
+				4C6AA912285B200E006957AF /* data */,
 				4C6AA90A285B0DDB006957AF /* ViewModels */,
 				4C6AA90B285B0DE7006957AF /* Models */,
 				4C6AA909285B0DD0006957AF /* Views */,
@@ -98,6 +101,14 @@
 				4C6AA90C285B0E0E006957AF /* Quote.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		4C6AA912285B200E006957AF /* data */ = {
+			isa = PBXGroup;
+			children = (
+				4C6AA914285B2061006957AF /* collection.json */,
+			);
+			path = data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +171,7 @@
 			files = (
 				4C6AA903285B0B6A006957AF /* Preview Assets.xcassets in Resources */,
 				4C6AA900285B0B6A006957AF /* Assets.xcassets in Resources */,
+				4C6AA915285B2061006957AF /* collection.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
